@@ -110,14 +110,6 @@ const CONFIG = {
       companyLink: 'https://example.com',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
   educations: [
     {
       institution: 'Institution Name',
