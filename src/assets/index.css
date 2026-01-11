@@ -139,9 +139,9 @@ svg {
 
 [data-theme="corporate"] {
   /* GitHub dark style navy */
-  --color-base-100: #0d1117;
+  --color-base-100: #f5f7fa;
   --color-base-200: #ebeef2;
-  --color-base-300: #e1e5ea;
+  --color-base-300: #0d1117;
   --color-base-content: #18181b;
 
   /* optional: a GitHub-ish blue accent */
