@@ -5,10 +5,6 @@ interface Github {
   username: string;
 }
 
-interface Summary {
-  title?: string;
-  text?: string;
-}
 
 interface GitHubProjects {
   /**
@@ -322,7 +318,10 @@ interface Config {
    */
   github: Github;
 
-  summary?: Summary;
+  summary?: {
+    title: string;
+    body: string;
+  };
 
   /**
    * Vite's base url
