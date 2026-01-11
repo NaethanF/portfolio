@@ -138,7 +138,7 @@ svg {
 }
 
 [data-theme="corporate"] {
-  --b1: 13 17 23; /* main background */
+  --b1: 13 17 43; /* main background */
   --b2: 235 238 242; /* secondary background */
   --b3: 225 229 234; /* tertiary background */
 
