@@ -32,6 +32,10 @@ export const getSanitizedConfig = (
       github: {
         username: config.github.username,
       },
+      summary: {
+        title: config?.summary?.title || 'Summary',
+        body: config?.summary?.body || '',
+      },
       projects: {
         github: {
           display: config?.projects?.github?.display ?? true,
