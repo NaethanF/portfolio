@@ -144,7 +144,8 @@ svg {
   --color-base-300: #525b69; 
   --color-base-content: #18181b;
 
-  /* optional: a GitHub-ish blue accent */
+  /* optional: a GitHub-ish blue accent */ /*
   --color-primary: #58a6ff;
   --color-primary-content: #0d1117;
+  */
 }
