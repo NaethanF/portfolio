@@ -4,6 +4,13 @@ const CONFIG = {
   github: {
     username: 'NaethanF', // Your GitHub org/user name. (This is the only required config)
   },
+
+  summary: {
+    title: 'Quick summary',
+    text: 'BS Computer Engineering graduate from UC Irvine. I build embedded systems, design PCBs in Altium, and integrate hardware with firmware for flight and robotics projects.',
+  },
+
+
   
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
