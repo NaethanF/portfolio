@@ -5,6 +5,11 @@ interface Github {
   username: string;
 }
 
+interface Summary {
+  title?: string;
+  text?: string;
+}
+
 interface GitHubProjects {
   /**
    * Display GitHub projects?
