@@ -195,7 +195,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                     <h2 className="card-title">
                       {sanitizedConfig.summary.title}
                     </h2>
-                    <p className="whitespace-pre-line leading-relaxed max-w-4xl">
+                    <p className="whitespace-pre-line leading-relaxed">
                       {sanitizedConfig.summary.body}
                     </p>
                   </div>
