@@ -71,7 +71,7 @@ const CONFIG = {
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', /
+    stackoverflow: '', 
     discord: '',
     telegram: '',
     website: '',
