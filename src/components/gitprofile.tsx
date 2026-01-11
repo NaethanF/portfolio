@@ -188,6 +188,21 @@ const GitProfile = ({ config }: { config: Config }) => {
       ) : (
         <>
           <div className={`p-4 lg:p-10 min-h-full ${BG_COLOR}`}>
+            {sanitizedConfig.summary?.body && (
+              <div className="mb-6">
+                <div className="card bg-base-100 shadow-sm">
+                  <div className="card-body">
+                    <h2 className="card-title">
+                      {sanitizedConfig.summary.title}
+                    </h2>
+                    <p className="whitespace-pre-line leading-relaxed max-w-4xl">
+                      {sanitizedConfig.summary.body}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+            
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
               <div className="col-span-1">
                 <div className="grid grid-cols-1 gap-6">
