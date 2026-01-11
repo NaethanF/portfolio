@@ -6,8 +6,9 @@ const CONFIG = {
   },
 
   summary: {
-    title: 'Quick summary',
-    text: 'BS Computer Engineering graduate from UC Irvine. I build embedded systems, design PCBs in Altium, and integrate hardware with firmware for flight and robotics projects.',
+  title: 'Summary',
+  body:
+    'BS Computer Engineering graduate from the University of California, Irvine. Focused on embedded systems, PCB design, and hardware integration. Experience with Altium Designer, STM32 microcontrollers, and avionics oriented systems.',
   },
 
 
