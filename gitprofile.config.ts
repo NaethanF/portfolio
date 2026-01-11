@@ -7,8 +7,9 @@ const CONFIG = {
 
   summary: {
   title: 'About Me',
-  body:
-    'I am a Computer Engineering graduate from UC Irvine with a strong focus on embedded systems, PCB design, and hands-on hardware development. I enjoy working closely with hardware and taking systems from concept through bring-up, testing, and integration. My experience spans Altium PCB design, STM32 and Arduino development, electrical integration, and system validation using lab equipment while troubleshooting electrical and firmware issues.\n\nI value doing work thoroughly and learning through building and testing rather than just getting something done. I am comfortable learning new systems quickly, adapting to changing requirements, and collaborating across disciplines to move projects forward. Whether working independently or within a team, I focus on building reliable, well-documented systems and continuously improving my engineering skills.',
+  body: 'I am a Computer Engineering graduate from UC Irvine focused on embedded systems and PCB design, with an emphasis on hands-on hardware development. My experience centers on bringing designs into functional systems through bring-up, testing, and integration, validating electrical behavior and resolving issues at the system level. Currently, I work with avionics hardware in a production environment, supporting electrical fabrication, integration, verification, and system-level testing.\n\n' +
+        'I value doing work thoroughly and learning through building and testing rather than just getting something done. I am comfortable learning new systems quickly, adapting to changing requirements, and collaborating across disciplines to move projects forward. Whether working independently or within a team, I focus on building reliable, well-documented systems and continuously improving my engineering skills.'
+
   },
 
 
