@@ -135,3 +135,11 @@ svg {
     opacity: 1;
   }
 }
+
+[data-theme="corporate"] {
+  --b1: 13 17 23; /* main background */
+  --b2: 235 238 242; /* secondary background */
+  --b3: 225 229 234; /* tertiary background */
+
+  --bc: 24 24 27; /* base text color */
+}
