@@ -138,9 +138,13 @@ svg {
 }
 
 [data-theme="corporate"] {
-  --b1: 13 17 43; /* main background */
-  --b2: 235 238 242; /* secondary background */
-  --b3: 225 229 234; /* tertiary background */
+  /* GitHub dark style navy */
+  --color-base-100: #0d1117;
+  --color-base-200: #161b22;
+  --color-base-300: #21262d;
+  --color-base-content: #c9d1d9;
 
-  --bc: 24 24 27; /* base text color */
+  /* optional: a GitHub-ish blue accent */
+  --color-primary: #58a6ff;
+  --color-primary-content: #0d1117;
 }
