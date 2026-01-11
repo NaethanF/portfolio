@@ -322,6 +322,8 @@ interface Config {
    */
   github: Github;
 
+  summary?: Summary;
+
   /**
    * Vite's base url
    */
