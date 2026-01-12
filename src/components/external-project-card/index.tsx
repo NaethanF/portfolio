@@ -33,7 +33,7 @@ const ExternalProjectCard = ({
                       })}
                     </h2>
                     <div className="avatar w-full h-full">
-                      <div className="w-24 h-24 mask mask-squircle mx-auto">
+                      <div className="w-24 h-24 overflow-hidden">
                         {skeleton({
                           widthCls: 'w-full',
                           heightCls: 'h-full',
