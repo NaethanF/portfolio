@@ -53,8 +53,8 @@ const CONFIG = {
         {
           title: 'Project Name',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl: [
+            'This is a test.',
+          imageUrls: [
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
             ],
