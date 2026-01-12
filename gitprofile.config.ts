@@ -54,7 +54,7 @@ const CONFIG = {
           link: 'https://docs.google.com/presentation/d/19ivVNNwkG5UCK_Q2B89-NhDH6ovsr8RY/edit?slide=id.p1#slide=id.p1',
         },
         {
-          title: 'e-Human Powered Vehicle Competition, Electric Rocumbent Bicycle',
+          title: 'e-Human Powered Vehicle Competition, Electric Recumbent Bicycle',
           description:
             'As part of UCI’s ASME eHPVC team, I contributed to the electrical subteam developing electronics for an electric-assisted recumbent bicycle. We designed a motor control and power distribution system powered by a 48V, 10Ah battery with overcurrent protection driving a 500W mid-drive motor. I programmed the onboard microcontroller to process sensor inputs, execute control logic, drive system outputs via GPIO and PWM, and implement thermal-based battery protection. An LCD displayed live rider metrics during operation. I conducted thermal validation and battery performance testing under load. Custom wire harnesses were assembled and routed to integrate all electrical subsystems across the frame.',
           imageUrls: [
@@ -62,6 +62,16 @@ const CONFIG = {
             'https://i.imgur.com/Onm8VSb.jpeg',
             ],
           link: 'https://docs.google.com/presentation/d/1nrqD4Cpm3vBgDti1VYYca4P_vcLO7NBy6WaoXw6-h2Y/edit?slide=id.p#slide=id.p',
+        },
+        {
+          title: '"ACE" Robotics Club at UCI, Combat Robot Builds',
+          description:
+            'As part of UCI’s ASME eHPVC team, I contributed to the electrical subteam developing electronics for an electric-assisted recumbent bicycle. We designed a motor control and power distribution system powered by a 48V, 10Ah battery with overcurrent protection driving a 500W mid-drive motor. I programmed the onboard microcontroller to process sensor inputs, execute control logic, drive system outputs via GPIO and PWM, and implement thermal-based battery protection. An LCD displayed live rider metrics during operation. I conducted thermal validation and battery performance testing under load. Custom wire harnesses were assembled and routed to integrate all electrical subsystems across the frame.',
+          imageUrls: [
+            'https://i.imgur.com/KOKoZTA.jpeg',
+            'https://i.imgur.com/Onm8VSb.jpeg',
+            ],
+          link: 'https://drive.google.com/drive/folders/1X9x5nBFTOfR5TZ9x2zoUWDsdwB1NlmVE?usp=drive_link',
         },
       ],
     },
