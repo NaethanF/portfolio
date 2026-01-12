@@ -68,7 +68,15 @@ const ExternalProjectCard = ({
   };
 
   const renderExternalProjects = () => {
-    return externalProjects.map((item, index) => (
+  return externalProjects.map((item, index) => {
+    const images = [
+      ...(item.imageUrls ?? []),
+      ...(item.imageUrl ? [item.imageUrl] : []),
+    ]
+      .filter(Boolean)
+      .slice(0, 2);
+
+    return (
       <a
         className="card shadow-md card-sm bg-base-100 cursor-pointer"
         key={index}
@@ -97,21 +105,36 @@ const ExternalProjectCard = ({
                   <h2 className="font-medium text-center opacity-60 mb-2">
                     {item.title}
                   </h2>
-                  {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-24 h-24 mask mask-squircle">
-                        <LazyImage
-                          src={item.imageUrl}
-                          alt={'thumbnail'}
-                          placeholder={skeleton({
-                            widthCls: 'w-full',
-                            heightCls: 'h-full',
-                            shape: '',
-                          })}
-                        />
-                      </div>
+
+                  {images.length > 0 && (
+                    <div
+                      className={
+                        images.length === 2
+                          ? 'grid grid-cols-2 gap-2 justify-center'
+                          : 'flex justify-center'
+                      }
+                    >
+                      {images.map((src) => (
+                        <div
+                          key={src}
+                          className="avatar opacity-90"
+                        >
+                          <div className="w-24 h-24 mask mask-squircle">
+                            <LazyImage
+                              src={src}
+                              alt="thumbnail"
+                              placeholder={skeleton({
+                                widthCls: 'w-full',
+                                heightCls: 'h-full',
+                                shape: '',
+                              })}
+                            />
+                          </div>
+                        </div>
+                      ))}
                     </div>
                   )}
+
                   <p className="mt-2 text-base-content text-sm text-justify">
                     {item.description}
                   </p>
@@ -121,8 +144,9 @@ const ExternalProjectCard = ({
           </div>
         </div>
       </a>
-    ));
-  };
+    );
+  });
+};
 
   return (
     <Fragment>
