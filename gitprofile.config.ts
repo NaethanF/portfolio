@@ -68,8 +68,8 @@ const CONFIG = {
           description:
             'As a member of UCI’s "ACE" Robotics Club, I designed and built combat robots, taking systems from CAD through fabrication and electrical subsystem integration. This included the mechanical design of 3D-printed and CNC-fabricated chassis, power distribution, and integration of motors, ESCs, telemetry, and batteries. As a project lead, I also helped grow the club and build a combat robotics community, mentoring 26 student teams through the engineering process and supporting the creation of a student-run makerspace. This work culminated in a collegiate combat robotics competition at UCI our club organizes with participation from 4 universities.',
           imageUrls: [
-            'https://i.imgur.com/KOKoZTA.jpeg',
-            'https://i.imgur.com/Onm8VSb.jpeg',
+            'https://https://i.imgur.com/JqjzxPd.jpeg',
+            'https://i.imgur.com/Kc6czQO.jpeg',
             ],
           link: 'https://drive.google.com/drive/folders/1X9x5nBFTOfR5TZ9x2zoUWDsdwB1NlmVE?usp=drive_link',
         },
