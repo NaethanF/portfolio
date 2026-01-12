@@ -224,14 +224,6 @@ const DetailsCard = ({ profile, loading, social}: Props) => {
                   link={getFormattedMastodonValue(social.mastodon, true)}
                 />
               )}
-              {social?.linkedin && (
-                <ListItem
-                  icon={<FaLinkedin />}
-                  title="LinkedIn:"
-                  value={social.linkedin}
-                  link={`https://www.linkedin.com/in/${social.linkedin}`}
-                />
-              )}
               {social?.dribbble && (
                 <ListItem
                   icon={<CgDribbble />}
@@ -332,6 +324,14 @@ const DetailsCard = ({ profile, loading, social}: Props) => {
                       ? `http://${social.website}`
                       : social.website
                   }
+                />
+              )}
+               {social?.linkedin && (
+                <ListItem
+                  icon={<FaLinkedin />}
+                  title="LinkedIn:"
+                  value={social.linkedin}
+                  link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
               )}
               {social?.telegram && (
