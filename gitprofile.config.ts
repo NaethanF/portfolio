@@ -81,6 +81,17 @@ const CONFIG = {
             ],
           link: 'https://drive.google.com/drive/folders/1X9x5nBFTOfR5TZ9x2zoUWDsdwB1NlmVE?usp=drive_link',
         },
+         {
+          title: 'Amazon Sidewalk Wearable Health Monitoring Prototype',
+          description:
+            'I worked with a small team on the "Amazon Sidewalk Elderly Care Bracelet", a wearable health monitor for heart rate, fall detection, and location tracking. The system used low-power long-range wireless communication through LoRa and Amazon Sidewalk to transmit sensor data from the device to cloud services, enabling remote monitoring without relying on cellular connectivity. We integrated sensors and embedded firmware on an nRF52840-based platform and validated transmission of data to AWS./nWhile the project did not reach a finalized version, it achieved meaningful results at the prototype stage, including functional hardware integration, embedded data pipelines, and cloud-based visualization.',
+          imageUrls: [
+            'https://i.imgur.com/nWqqjEe.png',
+            'https://i.imgur.com/3VdXpuO.jpeg',
+            ],
+          link: 'https://drive.google.com/file/d/1clqqs5C5J-br_qpM361paLK1eWjDpmqK/view?usp=sharing',
+        },
+        
       ],
     },
   },
