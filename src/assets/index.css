@@ -138,16 +138,11 @@ svg {
 }
 
 [data-theme="corporate"] {
-  /* GitHub dark style navy */
+
   --color-base-100: #f0f2f5;
   --color-base-200: #ccd3db;
   --color-base-300: #262c36; 
   --color-base-content: #18181b;
   
-  --color-neutral: #0082ce;          /* pill background */
-  --color-neutral-content: #ccd3db; 
-
-  --n: 0.55 0.16 245;
-  --nc: 0.88 0.02 250;
 
 }
