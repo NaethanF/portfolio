@@ -158,7 +158,7 @@ const OrganizationItem: React.FC<{
                 link={`https://github.com/${github.username}`}
               />
 */
-const DetailsCard = ({ profile, loading, social, github }: Props) => {
+const DetailsCard = ({ profile, loading, social}: Props) => {
   const renderSkeleton = () => {
     const array = [];
     for (let index = 0; index < 4; index++) {
