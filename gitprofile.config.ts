@@ -61,7 +61,7 @@ const CONFIG = {
             'https://i.imgur.com/KOKoZTA.jpeg',
             'https://i.imgur.com/Onm8VSb.jpeg',
             ],
-          link: 'https://docs.google.com/presentation/d/1nrqD4Cpm3vBgDti1VYYca4P_vcLO7NBy6WaoXw6-h2Y/edit?slide=id.g1f5849602d1_1_18#slide=id.g1f5849602d1_1_18',
+          link: 'https://docs.google.com/presentation/d/1nrqD4Cpm3vBgDti1VYYca4P_vcLO7NBy6WaoXw6-h2Y/edit?slide=id.p#slide=id.p',
         },
       ],
     },
