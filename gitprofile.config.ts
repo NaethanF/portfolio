@@ -64,6 +64,14 @@ const CONFIG = {
           link: 'https://docs.google.com/presentation/d/1nrqD4Cpm3vBgDti1VYYca4P_vcLO7NBy6WaoXw6-h2Y/edit?slide=id.p#slide=id.p',
         },
         {
+          title: 'Autonomous Quadcopter Drone',
+          description:
+           'I independently designed and built a GPS-guided quadcopter using ArduPilot, handling full system integration from hardware assembly to flight configuration and validation. The build involved integrating a Matek flight controller with ESCs, motors, GPS, telemetry, and video systems, followed by parameter tuning, sensor calibration, and mission planning. The quadcopter successfully executed autonomous waypoint missions with geofencing and return-to-home failsafes, reaching altitudes up to 30 meters.',
+          imageUrl:
+            'https://i.imgur.com/8WHUfj9.jpeg',
+          link: 'https://drive.google.com/drive/folders/1GROlFe5Iw3W2YT43E3Q2iTbkkzFUkg0P?usp=drive_link',
+        },
+        {
           title: '"ACE" Robotics Club at UCI, Combat Robot Builds',
           description:
             'As a member of UCI’s "ACE" Robotics Club, I designed and built combat robots, taking systems from CAD through fabrication and electrical subsystem integration. This included the mechanical design of 3D-printed and CNC-fabricated chassis, power distribution, and integration of motors, ESCs, telemetry, and batteries. As a project lead, I also helped grow the club and build a combat robotics community, mentoring 26 student teams through the engineering process and supporting the creation of a student-run makerspace. This work culminated in a collegiate combat robotics competition at UCI our club organizes with participation from 4 universities.',
