@@ -110,7 +110,7 @@ const ExternalProjectCard = ({
                     <div
                       className={
                         images.length === 2
-                          ? 'grid grid-cols-2 gap-2 justify-center'
+                          ? 'inline-grid grid-cols-2 gap-2 mx-auto'
                           : 'flex justify-center'
                       }
                     >
@@ -119,7 +119,7 @@ const ExternalProjectCard = ({
                           key={src}
                           className="avatar opacity-90"
                         >
-                          <div className="w-24 h-24 mask mask-squircle">
+                          <div className="w-38 h-38 mask mask-squircle">
                             <LazyImage
                               src={src}
                               alt="thumbnail"
