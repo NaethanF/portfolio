@@ -139,16 +139,12 @@ svg {
 
 [data-theme="corporate"] {
   /* GitHub dark style navy */
-  /*#f0f2f5 #e4e8ed #e1e5eb #f0f2f5 #f5f7fa*/
   --color-base-100: #f0f2f5;
-  /*#ccd3db #e1e5ea*/
   --color-base-200: #ccd3db;
-  /*#262c36 #212830 #1d232a  #4a5059*/
   --color-base-300: #262c36; 
   --color-base-content: #18181b;
+  
+  --color-neutral: #0082ce;          /* pill background */
+  --color-neutral-content: #ccd3db; 
 
-  /* optional: a GitHub-ish blue accent */ /*
-  --color-primary: #58a6ff;
-  --color-primary-content: #0d1117;
-  */
 }
