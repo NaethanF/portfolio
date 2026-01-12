@@ -150,6 +150,14 @@ const OrganizationItem: React.FC<{
  * @param {Object} github - The GitHub object.
  * @return {JSX.Element} The details card component.
  */
+/*
+<ListItem
+                icon={<AiFillGithub />}
+                title="GitHub:"
+                value={github.username}
+                link={`https://github.com/${github.username}`}
+              />
+*/
 const DetailsCard = ({ profile, loading, social, github }: Props) => {
   const renderSkeleton = () => {
     const array = [];
@@ -195,12 +203,10 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   }
                 />
               )}
-              <ListItem
-                icon={<AiFillGithub />}
-                title="GitHub:"
-                value={github.username}
-                link={`https://github.com/${github.username}`}
-              />
+
+
+              
+              
               {social?.researchGate && (
                 <ListItem
                   icon={<SiResearchgate />}
