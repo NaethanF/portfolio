@@ -43,9 +43,9 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'UCI CanSat, Atmospheric Probe',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'As part of UCI\'s CanSat team, I served on the electrical subteam that was responsible for the design and development of a telemetry-based atmospheric probe launched via rocket to 700 meters for the CanSat National Student Space Competition. I designed a custom PCB in Altium, which included circuit design for the power regulation, sensor interfaces, telemetry, and other auxiliary subsystems. The PCB was assembled by soldering SMD components for better testing and integration. We\'ve also developed a Python-based ground station that communicates with the onboard STM32 microcontroller. Our team placed 9th out of 67 national teams.',
           imageUrls: [
             'https://i.imgur.com/aMrdSqC.png',
             'https://i.imgur.com/aMrdSqC.png',
