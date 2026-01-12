@@ -112,7 +112,7 @@ const CONFIG = {
     'subsystem integration',
     'soldering',
     'oscilloscope/multimeter',
-    'Dolidworks',
+    'Solidworks',
     'Fusion 360',
     'computer-aided design',
     'LTspice',
