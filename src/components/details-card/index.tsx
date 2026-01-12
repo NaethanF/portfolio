@@ -184,13 +184,6 @@ const DetailsCard = ({ profile, loading, social}: Props) => {
             renderSkeleton()
           ) : (
             <Fragment>
-              {profile.location && (
-                <ListItem
-                  icon={<MdLocationOn />}
-                  title="Based in:"
-                  value={profile.location}
-                />
-              )}
               {profile.company && (
                 <OrganizationItem
                   icon={<FaBuilding />}
@@ -371,6 +364,13 @@ const DetailsCard = ({ profile, loading, social}: Props) => {
                   title="Discord:"
                   value={social.discord}
                   link={`https://discord.com/app`}
+                />
+              )}
+              {profile.location && (
+                <ListItem
+                  icon={<MdLocationOn />}
+                  title="Based in:"
+                  value={profile.location}
                 />
               )}
             </Fragment>
