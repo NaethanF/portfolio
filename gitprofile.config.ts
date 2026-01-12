@@ -48,9 +48,9 @@ const CONFIG = {
             'As part of UCI\'s CanSat team, I served on the electrical subteam that was responsible for the design and development of a telemetry-based atmospheric probe launched via rocket to 700 meters for the CanSat National Student Space Competition. I designed a custom PCB in Altium, which included circuit design for the power regulation, sensor interfaces, telemetry, and other auxiliary subsystems. The PCB was assembled by soldering SMD components for better testing and integration. We\'ve also developed a Python-based ground station that communicates with the onboard STM32 microcontroller. Our team placed 9th out of 67 national teams.',
           imageUrls: [
             'https://i.imgur.com/aMrdSqC.png',
-            'https://i.imgur.com/aMrdSqC.png',
+            'https://i.imgur.com/N27xUHK.jpeg',
             ],
-          link: 'https://example.com',
+          link: 'https://docs.google.com/presentation/d/19ivVNNwkG5UCK_Q2B89-NhDH6ovsr8RY/edit?slide=id.p1#slide=id.p1',
         },
         {
           title: 'Project Name',
