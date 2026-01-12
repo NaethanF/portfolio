@@ -147,4 +147,7 @@ svg {
   --color-neutral: #0082ce;          /* pill background */
   --color-neutral-content: #ccd3db; 
 
+  --n: 0.55 0.16 245;
+  --nc: 0.88 0.02 250;
+
 }
