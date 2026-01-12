@@ -141,7 +141,8 @@ svg {
   /* GitHub dark style navy */
   --color-base-100: #f5f7fa;
   --color-base-200: #e1e5ea;
-  --color-base-300: #4a5059; 
+  /*#1d232a  #4a5059*/
+  --color-base-300: #1d232a; 
   --color-base-content: #18181b;
 
   /* optional: a GitHub-ish blue accent */ /*
