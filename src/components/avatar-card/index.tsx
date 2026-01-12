@@ -40,9 +40,9 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
         ) : (
           <div className="avatar opacity-90">
             <div
-              className={`mb-8 rounded-full w-32 h-32 ${
+              className={`mb-8 rounded-full w-50 h-50 ${
                 avatarRing
-                  ? 'ring-3 ring-primary ring-offset-base-100 ring-offset-2'
+                  ? 'ring-3 ring-primary ring-offset-base-100 ring-offset-1'
                   : ''
               }`}
             >
