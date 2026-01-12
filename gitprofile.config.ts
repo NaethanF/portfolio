@@ -46,8 +46,10 @@ const CONFIG = {
           title: 'Project Name',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          imageUrls: [
+            'https://i.imgur.com/aMrdSqC.png',
+            'https://i.imgur.com/aMrdSqC.png',
+            ]
           link: 'https://example.com',
         },
         {
