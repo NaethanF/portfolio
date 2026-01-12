@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import {
-  AiFillGithub,
+  //AiFillGithub,
   AiFillInstagram,
   AiFillMediumSquare,
 } from 'react-icons/ai';
