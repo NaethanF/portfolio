@@ -49,7 +49,7 @@ const CONFIG = {
           imageUrls: [
             'https://i.imgur.com/aMrdSqC.png',
             'https://i.imgur.com/aMrdSqC.png',
-            ]
+            ],
           link: 'https://example.com',
         },
         {
