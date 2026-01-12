@@ -45,7 +45,7 @@ const CONFIG = {
         {
           title: 'UCI CanSat, Atmospheric Probe',
           description:
-            'As part of UCI\'s CanSat team for the 2025 National Student Space Competition, I served on the electrical subteam responsible for developing a telemetry-based atmospheric probe launched via rocket to 700 meters. We designed a custom PCB in Altium that included power regulation, sensor interfaces, and telemetry circuitry, and assembled the board by soldering SMD components for system integration. I performed test validation using a multimeter and oscilloscope, documented results, and diagnosed electrical and communication issues. We\'ve also developed a Python-based ground station that communicated with the onboard STM32 microcontroller via UART using XBee modules.',
+            'As part of UCI’s CanSat team for the 2025 National Student Space Competition, I worked on the electrical subteam developing a telemetry-based atmospheric probe launched to 700 meters. We designed and assembled a custom PCB in Altium with power regulation, sensor interfaces, and telemetry circuitry, soldering SMD components for system integration. I performed electrical validation using a multimeter and oscilloscope, documented test results, and diagnosed electrical and communication issues. I also helped develop a Python-based ground station communicating with the onboard STM32 over UART via XBee modules.',
           
           imageUrls: [
             'https://i.imgur.com/aMrdSqC.png',
@@ -56,7 +56,7 @@ const CONFIG = {
         {
           title: 'e-Human Powered Vehicle Competition, Electric Rocumbent Bicycle',
           description:
-            'As part of UCI\'s ASME eHPVC team, I contributed to the electrical subteam in developing the electronics for an electric-assisted recumbent bicycle. We designed a motor control and power distribution circuit powered by a 48V, 10Ah battery with overcurrent protection, used to drive a 500W mid-drive motor. To support system functionality, I programmed the onboard microcontroller to process real-time data from hall effect sensors for speed and cadence, control lighting and signaling via GPIO and PWM, and implement thermal-based battery protection. An LCD was integrated to display live rider metrics during operation. To ensure reliability, I conducted thermal validation and battery performance testing under load. Custom wire harnesses were routed and assembled to connect all electrical subsystems securely across the bike frame.',
+            'As part of UCI’s ASME eHPVC team, I contributed to the electrical subteam developing electronics for an electric-assisted recumbent bicycle. We designed a motor control and power distribution system powered by a 48V, 10Ah battery with overcurrent protection driving a 500W mid-drive motor. I programmed the onboard microcontroller to process sensor inputs, execute control logic, drive system outputs via GPIO and PWM, and implement thermal-based battery protection. An LCD displayed live rider metrics during operation. I conducted thermal validation and battery performance testing under load. Custom wire harnesses were assembled and routed to integrate all electrical subsystems across the frame.',
           imageUrls: [
             'https://i.imgur.com/KOKoZTA.jpeg',
             'https://i.imgur.com/Onm8VSb.jpeg',
