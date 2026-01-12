@@ -22,8 +22,13 @@ export interface SanitizedGitHubProjects {
 export interface SanitizedExternalProject {
   title: string;
   description?: string;
+
+  // legacy single image support
   imageUrl?: string;
+
+  // new multi image support
   imageUrls?: string[];
+
   link: string;
 }
 
