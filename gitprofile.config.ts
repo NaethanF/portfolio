@@ -114,14 +114,14 @@ const CONFIG = {
     stackoverflow: '', 
     discord: '',
     telegram: '',
-    website: 'https://naethanf.github.io/portfolio/',
+    website: '',
     linkedin: 'naethanf2001',
     phone: '+1-714-362-4195',
     email: 'nfajarit1@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1nQGSY-xtmjjdh3sXVbytoU1_q97aonMV/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/11tIBJdTPR3yT51Ec_5TmQvLtNH80-RF2/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'pcb design',
