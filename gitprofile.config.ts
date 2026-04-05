@@ -45,7 +45,7 @@ const CONFIG = {
         {
           title: 'UCI CanSat, Atmospheric Probe',
           description:
-            'As part of UCI’s CanSat team for the 2025 National Student Space Competition, I worked on the electrical subteam developing a telemetry-based atmospheric probe launched to 700 meters. We designed and assembled a custom PCB in Altium with power regulation, sensor interfaces, and telemetry circuitry, soldering SMD components for system integration. I performed electrical validation using a multimeter and oscilloscope, documented test results, and diagnosed electrical and communication issues. I also helped develop a Python-based ground station communicating with the onboard STM32 over UART via XBee modules.',
+            'As part of UCI’s CanSat team for the 2025 National Student Space Competition, I worked on the electrical subteam developing a telemetry-based atmospheric probe launched to 750 meters. We designed and assembled a custom PCB in Altium with power regulation, sensor interfaces, and telemetry circuitry, soldering SMD components for system integration. I performed electrical validation using a multimeter and oscilloscope, documented test results, and diagnosed electrical and communication issues. I also helped develop a Python-based ground station communicating with the onboard STM32 over UART via XBee modules.',
           
           imageUrls: [
             'https://i.imgur.com/aMrdSqC.png',
@@ -121,7 +121,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/11tIBJdTPR3yT51Ec_5TmQvLtNH80-RF2/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1Mecv6J6R6_C4toic3KE7SajqNG0-mTIR/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'pcb design',
