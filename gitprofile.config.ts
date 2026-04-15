@@ -51,7 +51,7 @@ const CONFIG = {
             'https://i.imgur.com/aMrdSqC.png',
             'https://i.imgur.com/N27xUHK.jpeg',
             ],
-          link: 'https://docs.google.com/presentation/d/19ivVNNwkG5UCK_Q2B89-NhDH6ovsr8RY/edit?slide=id.p1#slide=id.p1',
+          link: 'https://drive.google.com/file/d/1ZZySxRWv7mYQ41qy_CgCZ9rG1QC1XrKg/view?usp=sharing',
         },
         {
           title: 'e-Human Powered Vehicle Competition, Electric Recumbent Bicycle',
@@ -61,7 +61,7 @@ const CONFIG = {
             'https://i.imgur.com/KOKoZTA.jpeg',
             'https://i.imgur.com/Onm8VSb.jpeg',
             ],
-          link: 'https://docs.google.com/presentation/d/1nrqD4Cpm3vBgDti1VYYca4P_vcLO7NBy6WaoXw6-h2Y/edit?slide=id.p#slide=id.p',
+          link: 'https://docs.google.com/presentation/d/1KU6OnYqs87uaoqlTa6Ii3G9C66HDxXLoxdZKd2GPdnw/edit?usp=sharing',
         },
         {
           title: 'Autonomous Quadcopter Drone',
