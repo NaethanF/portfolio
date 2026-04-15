@@ -121,7 +121,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1Mecv6J6R6_C4toic3KE7SajqNG0-mTIR/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1gKFKseWwda_fsiJ791ckJ2fqIewlEjy0/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'pcb design',
