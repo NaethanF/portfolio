@@ -119,10 +119,10 @@ const CONFIG = {
     phone: '+1-714-362-4195',
     email: 'nfajarit1@gmail.com',
   },
-  resume: {
-    fileUrl:
-      'https://drive.google.com/file/d/1gKFKseWwda_fsiJ791ckJ2fqIewlEjy0/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
-  },
+  //resume: {
+    //fileUrl:
+      //'https://drive.google.com/file/d/1gKFKseWwda_fsiJ791ckJ2fqIewlEjy0/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+  //},
   skills: [
     'pcb design',
     'Altium Designer',
